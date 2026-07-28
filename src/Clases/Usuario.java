@@ -8,7 +8,7 @@ public class Usuario {
 
     public Usuario() {
     }
-
+//ddd
     public Usuario(String login, String clave, String nombre_cargo, Trabajador trabajador) {
         this.login = login;
         this.clave = clave;

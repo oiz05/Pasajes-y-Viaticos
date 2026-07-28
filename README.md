@@ -1,6 +1,8 @@
 # SISTEMA DE RENDICION DE PASAJES Y VIATICOS
 
 ## CLASES
+## Trabajador
+La clase trabajador es una clase padre implementada por sus clases hijas Comisionado, Contador 
 - Cargo
 - Comisionado
 - Contador

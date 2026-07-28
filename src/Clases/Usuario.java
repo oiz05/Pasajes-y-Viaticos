@@ -15,7 +15,7 @@ public class Usuario {
         this.nombre_cargo = nombre_cargo;
         this.trabajador = trabajador;
     }
-
+//bb
     public String getLogin() {
         return login;
     }

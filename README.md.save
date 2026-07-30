@@ -1,0 +1,14 @@
+# SISTEMA DE RENDICION DE PASAJES Y VIATICOS
+
+## CLASES
+## Trabajador
+La clase trabajador es una clase padre implementada por sus clases hijas Comisionado, Contador y EncargadoAdministrativo.
+### Observaciones
+Actualmente, la clase Trabajador no es una clase abstracta, ¿es esto un inconveniente?
+
+## RELACIONES ENTRE CLASES
+### Usuario - Trabajador
+La clase Usuario tiene como uno de sus atributos a la clase trabajador
+
+### Trabajador - otras clases
+La clase Trabajador esta relacionada con las clases: Comisionado, Contador, EncargadoAdministrativo.

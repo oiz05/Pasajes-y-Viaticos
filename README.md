@@ -1,15 +1,42 @@
 # SISTEMA DE RENDICION DE PASAJES Y VIATICOS
 
-## CLASES
-## Trabajador
-La clase trabajador es una clase padre implementada por sus clases hijas Comisionado, Contador 
-- Cargo
+## Usuarios
 - Comisionado
+- Encargado administrativo
 - Contador
+- Tesorero
+- System
 
-## RELACIONES ENTRE CLASES
-### Usuario - Trabajador
-La clase Usuario tiene como uno de sus atributos a la clase trabajador
+## Requerimientos funcionales
+- Registrar usuarios
+- Registrar solicitud de viático
+- Remitir socilicitud a contador
+- Devolver viático sobrante
+- Devolver viático faltante
+- Realizar rendición de cuentas
+- Verificar solicitud de viatico
+- Comprobar documento acreditador de gasto
+- Gestionar usuarios y trabajadores
+- Gestionar solicitudes de viático
 
-### Trabajador - otras clases
-La clase Trabajador esta relacionada con las clases: Comisionado, Contador, EncargadoAdministrativo.
+## Roles de cada usuario
+### Comisionado
+- Registrar solicitud viático
+- Devolver viático sobrante
+- Realizar rendición de cuentas
+
+### Encargado administrativo
+- Remitir solicitud a contador
+- Gestionar solicitudes de viático
+
+### Contador
+- Verificar solicitud de viático
+- Comprobar documento acreditador de gasto
+
+### Tesorero
+- Devolver viático faltante
+
+### System
+- Registrar usuarios
+- Gestionar usuarios y trabajadores
+

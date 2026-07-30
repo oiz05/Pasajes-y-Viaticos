@@ -22,10 +22,10 @@ public class TrabajadorDao implements ITrabajador{
     
     private Connection obtenerConexion() throws SQLException, ClassNotFoundException {
         // Establecer la conexión con la base de datos SQL Server
-        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        String url = "jdbc:sqlserver://95.217.180.168:1433;databaseName=ControlPV;encrypt=false;trustServerCertificate=true;";
-        String usuario = "sa";
-        String contraseña = "01K#cjWq3c";
+        Class.forName("org.postgresql.jdbc.SQLServerDriver");
+        String url = "jdbc:postgresql://localhost;databaseName=ControlPV;encrypt=false;trustServerCertificate=true;";
+        String usuario = "test_user";
+        String contraseña = "password";
         return DriverManager.getConnection(url, usuario, contraseña);
     
         }
